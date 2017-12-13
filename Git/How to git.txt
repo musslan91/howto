@@ -36,3 +36,5 @@ git push -u origin master
 
 git remote add origin https://github.com/musslan91/howto.git
 git push -u origin master
+
+Kör aldrig två masters i ett repo utan du vet vad du gör.
