@@ -37,4 +37,20 @@ git push -u origin master
 git remote add origin https://github.com/musslan91/howto.git
 git push -u origin master
 
-Kör aldrig två masters i ett repo utan du vet vad du gör.
+Kör aldrig två masters i ett repo utan du vet vad du gör!!!
+
+Göra ändringar i git repot:
+
+Börja med göra en ändring i mappen där repository ligger i.
+efter ändringen sparar du.
+
+Du ser då en ändring i gitkraken som är unstaged...
+
+BÖRJA ALLTID MED PULL!!! FÖR ATT SE ATT DET INTE FINNS ÄNDRINGAR SOM EN ANNAN HAR GJORT!!!
+FÖR ATT INTE SKAPA ONÖDIGA BRANSCHES PÅ DEN RAKA LINJEN PÅ TRÄDET!!!
+
+Du vill sedan göra en stage på den ändringen antingen Stage all changes eller stage change ifall det bara är en ändring...
+
+Skriv namn på det stage/stages som har ändrats...
+
+och sedan pusha för ändring...
