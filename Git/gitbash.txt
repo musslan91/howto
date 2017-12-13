@@ -1,0 +1,19 @@
+gör repository
+
+kopiera dess länk.
+
+i bash:
+
+cd....min git mapp
+
+git clone + länken
+
+git add .   //git add all, om du har andra filer som du lagt så gör man så.
+
+om du gjort en fil...
+
+git commit -m "first commit"
+
+git push
+
+git pull om du är på en annan dator.
