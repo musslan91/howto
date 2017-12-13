@@ -1,0 +1,38 @@
+Git kraken:
+
+Open:
+
+init: Lägga upp ett project repo
+
+	github.com
+	select account
+	name project
+	name description on project
+	new repository path
+	create repository and clone
+
+Open:
+
+clone: Hämta ett project repo
+
+	Where to clone to, own path browsed
+	Copy URL from github repository
+
+Pull: Hämta ändringar som finns.
+Push: Ladda upp ändringar i repository.
+
+Git bash commands:
+
+…or create a new repository on the command line:
+
+echo "# howto" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/musslan91/howto.git
+git push -u origin master
+
+…or push an existing repository from the command line:
+
+git remote add origin https://github.com/musslan91/howto.git
+git push -u origin master
