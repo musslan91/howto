@@ -1,0 +1,12 @@
+Dumbmake:
+	gcc -o Dumbmake TestDumbExample.c DumbExample.c unity/src/unity.c
+
+.PHONY: test
+test:
+	gcc -o test/test TestDumbExample.c DumbExample.c unity/src/unity.c
+
+main:
+	gcc -o src/main DumbExample.c  // Detta fungerar inte för du har ingen main
+
+test1: TestDumbExample.c DumbExample.c unity/src/unity.c
+	gcc TestDumbExample.c DumbExample.c unity/src/unity.c -o test1
